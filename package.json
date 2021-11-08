@@ -1,0 +1,33 @@
+{
+  "name": "nodeatgmail",
+  "version": "1.0.0",
+  "description": "Gamil and NodeJS integration",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidtkg/nodeatgmail.git"
+  },
+  "keywords": [
+    "Node",
+    "Gmail"
+  ],
+  "author": "Abid Hasan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abidtkg/nodeatgmail/issues"
+  },
+  "homepage": "https://github.com/abidtkg/nodeatgmail#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^91.0.0",
+    "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
